@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game_Page</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body onload="startinstruction()">
+    <h1 class = "gameh1">Card Memory Game</h1>
+    <div id="instruction" class=" overlay " onclick="myFunction()">INSTRUCTIONS
+        <span class="overlay-small"><br>Click on a card to flip it.<br>If two consecutive flipped cards are not same, they are flipped back automatically.<br>The game ends when timer runs out or all the matching cards are identified.</span>
+    </div>
+    <div id="gameover" class="overlay">TIME'S UP
+        <span class="overlay-small">Click to Restart</span>
+    </div>
+    <div id="victory" class="overlay">YOU WON
+        <span class="overlay-small">Click to Restart</span>
+    </div>
+    <div class="game-info-container">
+        <div class="game-info">
+            Time: <span id="time-remain"></span>
+        </div>
+        <div class="game-info">
+            Flips: <span id="filps">0</span>
+        </div>
+    </div>
+    <div id="blocker"></div>
+    <div id="dummygrid" ></div>
+    <footer class="footer">
+        Image source:
+        <a href="https://opengameart.org/">here</a>and
+        <a href="https://i.pinimg.com/">here</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
