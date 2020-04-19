@@ -17,7 +17,7 @@ h1{
     text-align: center;
 }
 
-/* style for index.html start */
+/* style for index.html starts */
 .box{
     width: 400px;
     padding: 20px;
@@ -28,7 +28,7 @@ h1{
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 10px;
-    text-align: center;  
+    text-align: center;
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -60,9 +60,9 @@ h1{
     color: white;
     border-color: #2ecc71;
     background-color: #2ecc71;
-  }
-  /* style for index.html end */
-  /* style for game-page.html start */
+}
+/* style for index.html ends */
+/* style for game-page.html starts */
 
 .footer{
     /* position: fixed; */
@@ -119,11 +119,11 @@ h1{
     border-radius: 10px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  
-  .card_back {
+}
+
+.card_back {
     transform: rotateY(180deg);
-  }
+}
 
 .grid-column:hover{
     margin-top: 5px;
@@ -135,7 +135,7 @@ h1{
     font-size: .3em;
 }
 
-.overlay{ 
+.overlay{
     display: none;
     position: fixed;
     top: 0;
@@ -222,5 +222,4 @@ h1{
         }
     }
 }
-
-  /* style for game-page.html end */
+/* style for game-page.html ends */
